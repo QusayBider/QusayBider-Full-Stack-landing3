@@ -342,7 +342,7 @@ h1 {
   gap: 10px;
 
   .text-about {
-    width: 20%;
+    width: 30%;
     background-color: var(--secondary);
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -1287,3 +1287,19 @@ gap: 20px;
 
 }
 /*end contact*/
+
+@media screen and (max-width: 650px) {
+    h1{
+      font-size: 1.5rem;
+    }
+    .carousel-caption h4{
+      font-size: 1.2rem !important;
+    }
+    .carousel-caption h1{
+        font-size: 3rem !important;
+      
+    }
+    .navbar-brand{
+      width: 50%;
+    }
+}
